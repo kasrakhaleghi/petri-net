@@ -4,8 +4,9 @@ const parser = new xml2js.Parser();
 
 const path = "trace.xml";
 
+// خواندن یک 
+// trace
 var strXML = fs.readFileSync(path).toString()
- 
 
 function myParser(data) {
 
@@ -28,6 +29,49 @@ function myParser(data) {
     return arr
 }
 
-console.log(myParser(strXML));
 
+var activities = myParser(strXML)
+
+// Mapping 
+activitiesMap = activities.map(item => {
+    switch (item) {
+        case 'In Progress':
+            return 'A'
+
+        case 'Wait - User':
+            return 'B'
+
+        case 'In Call':
+            return 'C'
+    
+        case 'Resolved':
+            return 'D'
+                
+        case 'Closed':
+            return 'E';
+    }
+})
+
+// پاک کردن آیتم هایی که 
+// undefiend
+// هستند
+activitiesMapWithFilter = activitiesMap.filter(item=>{
+    if (item !== undefined)
+        return item
+})
  
+// حذف عضوهای تکراری
+let uniqueActivities = [...new Set(activitiesMapWithFilter)];
+console.log(uniqueActivities);
+
+// ساختن مجموعه زوج مرتب
+let pairs = []
+for (let index = 0; index < uniqueActivities.length - 1 ; index++) {
+    const element = uniqueActivities[index];
+    const nextElement = uniqueActivities[index+1];
+    pairs.push(`(${element}, ${nextElement})`)
+    
+}
+
+// نمایش زوج های مرتب
+console.log(pairs);
