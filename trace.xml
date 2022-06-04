@@ -1,0 +1,94 @@
+<trace>
+		<string key='concept:name' value='1-700135371'/>
+		<event>
+			<string key='org:group' value='G96'/>
+			<string key='resource country' value='POLAND'/>
+			<string key='organization country' value='se'/>
+			<string key='org:resource' value='Rafal'/>
+			<string key='organization involved' value='Org line C'/>
+			<string key='org:role' value='V3_2'/>
+			<string key='concept:name' value='Accepted'/>
+			<string key='impact' value='Low'/>
+			<string key='product' value='PROD388'/>
+			<string key='lifecycle:transition' value='In Progress'/>
+			<date key='time:timestamp' value='2012-03-21T08:00:48+01:00'/>
+		</event>
+		<event>
+			<string key='org:group' value='G96'/>
+			<string key='resource country' value='POLAND'/>
+			<string key='organization country' value='se'/>
+			<string key='org:resource' value='Rafal'/>
+			<string key='organization involved' value='Org line C'/>
+			<string key='org:role' value='V3_2'/>
+			<string key='concept:name' value='Accepted'/>
+			<string key='impact' value='Low'/>
+			<string key='product' value='PROD388'/>
+			<string key='lifecycle:transition' value='In Progress'/>
+			<date key='time:timestamp' value='2012-03-21T08:02:11+01:00'/>
+		</event>
+		<event>
+			<string key='org:group' value='N8 2nd'/>
+			<string key='resource country' value='POLAND'/>
+			<string key='organization country' value='se'/>
+			<string key='org:resource' value='Rafal'/>
+			<string key='organization involved' value='Org line A2'/>
+			<string key='org:role' value='A2_4'/>
+			<string key='concept:name' value='Queued'/>
+			<string key='impact' value='Low'/>
+			<string key='product' value='PROD388'/>
+			<string key='lifecycle:transition' value='Awaiting Assignment'/>
+			<date key='time:timestamp' value='2012-03-21T08:11:27+01:00'/>
+		</event>
+		<event>
+			<string key='org:group' value='N8 2nd'/>
+			<string key='resource country' value='Sweden'/>
+			<string key='organization country' value='se'/>
+			<string key='org:resource' value='Daniel'/>
+			<string key='organization involved' value='Org line A2'/>
+			<string key='org:role' value='A2_4'/>
+			<string key='concept:name' value='Accepted'/>
+			<string key='impact' value='Low'/>
+			<string key='product' value='PROD388'/>
+			<string key='lifecycle:transition' value='In Progress'/>
+			<date key='time:timestamp' value='2012-03-21T10:22:22+01:00'/>
+		</event>
+		<event>
+			<string key='org:group' value='N8 2nd'/>
+			<string key='resource country' value='Sweden'/>
+			<string key='organization country' value='se'/>
+			<string key='org:resource' value='Daniel'/>
+			<string key='organization involved' value='Org line A2'/>
+			<string key='org:role' value='A2_4'/>
+			<string key='concept:name' value='Accepted'/>
+			<string key='impact' value='Low'/>
+			<string key='product' value='PROD388'/>
+			<string key='lifecycle:transition' value='Wait - User'/>
+			<date key='time:timestamp' value='2012-03-21T10:30:29+01:00'/>
+		</event>
+		<event>
+			<string key='org:group' value='N8 2nd'/>
+			<string key='resource country' value='Sweden'/>
+			<string key='organization country' value='se'/>
+			<string key='org:resource' value='Daniel'/>
+			<string key='organization involved' value='Org line A2'/>
+			<string key='org:role' value='A2_4'/>
+			<string key='concept:name' value='Completed'/>
+			<string key='impact' value='Low'/>
+			<string key='product' value='PROD388'/>
+			<string key='lifecycle:transition' value='Resolved'/>
+			<date key='time:timestamp' value='2012-05-04T11:32:36+02:00'/>
+		</event>
+		<event>
+			<string key='org:group' value='N8 2nd'/>
+			<string key='resource country' value='0'/>
+			<string key='organization country' value='se'/>
+			<string key='org:resource' value='Siebel'/>
+			<string key='organization involved' value='Org line A2'/>
+			<string key='org:role' value='A2_4'/>
+			<string key='concept:name' value='Completed'/>
+			<string key='impact' value='Low'/>
+			<string key='product' value='PROD388'/>
+			<string key='lifecycle:transition' value='Closed'/>
+			<date key='time:timestamp' value='2012-05-12T01:20:47+02:00'/>
+		</event>
+	</trace>
